@@ -1,0 +1,26 @@
+﻿CaseID,Date,CrimeType,MainSuspect,Victim,CaseSeverity,Status
+84435,01/02/1983,Arson,Unknown,Angela Brown,7,Unsolved
+86458,09/10/1983,Arson,Anthony Gilmore,Michelle Reed,7,Solved
+62068,01/03/1983,Theft,Carrie Potter,Jennifer Long,2,Solved
+49692,05/01/1983,Murder,Unknown,Jane Doe,10,Unsolved
+24397,27/03/1983,Fraud,Unknown,James Wilkerson,3,Unsolved
+41895,05/02/1983,Assault,Angelica Brown,Nicole Li,5,Solved
+25646,17/02/1983,Murder,Unknown,Melissa Holt,10,Unsolved
+91048,13/03/1983,Burglary,Dale Nelson,Paula Guerrero,3,Solved
+76082,07/05/1983,Fraud,Unknown,Michael Burns,3,Unsolved
+10181,18/10/1983,Murder,Darren Baker,Julia Hamilton,10,Solved
+61379,30/07/1983,Fraud,Anthony Lopez,Daniel Jackson,4,Solved
+54792,02/10/1983,Assault,Angela Hutchinson,Jessica Stark,6,Solved
+21445,09/09/1983,Fraud,Unknown,Latoya Durham,4,Unsolved
+38078,27/06/1983,Burglary,Unknown,Paul Fuller,2,Unsolved
+77727,13/01/1983,Arson,Melissa Fitzgerald,Michele Patton,7,Solved
+94229,17/10/1983,Fraud,Jeffery Castillo,Ernest White,3,Solved
+40146,07/09/1983,Fraud,Angela Ross,Heidi Mckinney,5,Solved
+48372,20/01/1983,Burglary,Jeremy Green,Nicole Peterson,3,Solved
+72228,27/09/1983,Arson,Unknown,Christopher Delgado,5,Unsolved
+81256,05/06/1983,Theft,Unknown,Douglas Rosales,1,Unsolved
+25359,07/02/1983,Theft,Unknown,Larry Dawson,1,Unsolved
+67360,23/03/1983,Burglary,Travis Rollins,Christina Bartlett,2,Solved
+66205,05/05/1983,Assault,Unknown,Brandy Butler,5,Unsolved
+87642,05/09/1983,Fraud,Unknown,Kenneth Kaiser,4,Unsolved
+21599,02/08/1983,Arson,Jim Singh,Robert Pearson,6,Solved
