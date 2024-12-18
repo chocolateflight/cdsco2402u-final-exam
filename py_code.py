@@ -393,6 +393,7 @@ class Application():
                     print("Enter suspect name: ")
                     suspect_name = input("Enter suspect name: ").strip().upper()
                     results = self.case_archive.search_suspect(suspect_name)
+                    print(f"\n=== Results for suspect: {suspect_name} ===")
                     self.print_case_results(results)
                     continue
 
@@ -409,6 +410,7 @@ class Application():
                     print("Enter victim name: ")
                     victim_name = input("Enter victim name: ").strip().upper()
                     results = self.case_archive.search_victim(victim_name)
+                    print(f"\n=== Results for victim: {victim_name} ===")
                     self.print_case_results(results)
                     continue
 
@@ -425,6 +427,7 @@ class Application():
                     print("Enter case ID: ")
                     case_id = input("Enter case ID: ").strip()
                     results = self.case_archive.search_case_id(case_id)
+                    print(f"\n=== Results for case ID: {case_id} ===")
                     self.print_case_results(results)
                     continue
 
@@ -440,7 +443,7 @@ class Application():
 
                         if filter_choice == "1":
                             while True:
-                                print("=== Filter by Crime Type ===")
+                                print("\n=== Filter by Crime Type ===")
                                 print("Select a crime type:")
 
                                 crime_types = self.case_archive.load_crime_types()
@@ -464,6 +467,7 @@ class Application():
                                 break
 
                             results = self.case_archive.filter_cases(crime_type, None, None)
+                            print(f"\n=== Results for crime type: {crime_type} ===")
                             self.print_case_results(results)
                             break
 
@@ -476,11 +480,13 @@ class Application():
                                 print("Severity must be an integer.")
                                 continue
                             results = self.case_archive.filter_cases(None, severity, None)
+                            print(f"\n=== Results for severity: {severity} ===")
                             self.print_case_results(results)
                             break
 
                         elif filter_choice == "3":
                             while True:
+                                print("\n=== Filter by Status ===")
                                 print("Status options: Unsolved, Solved")
                                 print("1. Unsolved")
                                 print("2. Solved")
@@ -497,6 +503,7 @@ class Application():
                                     continue
 
                                 results = self.case_archive.filter_cases(None, None, status)
+                                print(f"\n=== Results for status: {status} ===")
                                 self.print_case_results(results)
                                 break
 
@@ -520,21 +527,25 @@ class Application():
 
                         if sort_choice == "1":
                             results = self.case_archive.sort_cases("case_id")
+                            print(f"\n=== Results sorted by case ID ===")
                             self.print_case_results(results)
                             break
 
                         elif sort_choice == "2":
                             results = self.case_archive.sort_cases("date")
+                            print(f"\n=== Results sorted by date ===")
                             self.print_case_results(results)
                             break
 
                         elif sort_choice == "3":
                             results = self.case_archive.sort_cases("severity")
+                            print(f"\n=== Results sorted by severity ===")
                             self.print_case_results(results)
                             break
 
                         elif sort_choice == "4":
                             results = self.case_archive.sort_cases("status")
+                            print(f"\n=== Results sorted by status ===")
                             self.print_case_results(results)
                             break
 
@@ -611,7 +622,6 @@ class Application():
             else:
                 print("Invalid choice. Please select a valid option.")
                 continue
-            
 
 
 # ------------------------ Run Program ------------------------
