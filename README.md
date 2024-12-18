@@ -24,8 +24,7 @@ The system demonstrates the use of object-oriented programming, modular design, 
   - `Case`: Represents a single case with associated data.  
   - `CaseArchive`: Manages a collection of cases, providing methods to load, search, filter, and sort.  
   - `SortingAlgorithm` and `SearchAlgorithm`: Contain the logic for merge sort and searching methods.
-- **Menu Interface:**  
-  - A text-based interface provided by the `menu()` function. Users can interactively choose operations to perform on the archive.
+  - `Application`: Runs the application and provides a text-base interface users can interactively choose operations to perform on the archive from. 
   
 ## Algorithms
 - **Merge Sort:**  
@@ -41,7 +40,7 @@ The system demonstrates the use of object-oriented programming, modular design, 
 ## How to Run
 1. Ensure you have Python 3 installed.
 2. Place `case_archive.csv` in the same directory as the script (optional).
-3. Run `python your_script_name.py`.
+3. Run either `code.ipynb` or `code.py`.
 4. Choose "Load Cases" to load data from the CSV, or load demo data if the CSV is not available.
 5. Use the menu interface to explore search, filter, and sort functionalities.
 
