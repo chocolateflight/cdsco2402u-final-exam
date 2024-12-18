@@ -425,9 +425,12 @@ class Application():
                         """
                     )
                     print("Enter case ID: ")
-                    case_id = input("Enter case ID: ").strip()
+                    try:
+                        case_id = int(input("Enter case ID: ").strip())
+                    except ValueError:
+                        print("Case ID must be an integer.")
+                        continue
                     results = self.case_archive.search_case_id(case_id)
-                    print(f"\n=== Results for case ID: {case_id} ===")
                     self.print_case_results(results)
                     continue
 
