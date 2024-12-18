@@ -40,7 +40,7 @@ The system demonstrates the use of object-oriented programming, modular design, 
 ## How to Run
 1. Ensure you have Python 3 installed.
 2. Place `case_archive.csv` in the same directory as the script (optional).
-3. Run either `code.ipynb` or `py_code.py`.
+3. Run either `exam.ipynb` or `py_code.py`.
 4. Choose "Load Cases" to load data from the CSV, or load demo data if the CSV is not available.
 5. Use the menu interface to explore search, filter, and sort functionalities.
 
