@@ -111,11 +111,6 @@ class SearchAlgorithm:
         first = 0
         last = len(case_list) - 1
 
-        try:
-            search_value = int(search_value)
-        except:
-            pass
-
         while first <= last:
             middle = (first + last) // 2
             middle_value = case_list[middle]
