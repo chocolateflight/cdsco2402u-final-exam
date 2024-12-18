@@ -48,5 +48,8 @@ The system demonstrates the use of object-oriented programming, modular design, 
 - Python 3.x
 - Standard Python libraries (`csv`, `datetime`).
 
+## Disclaimer
+All names in this work, whether suspect, victim or otherwise, are fictitious. Any similarities or matches with names in the real world are purely coincidental.
+
 ## License
 This project is for educational purposes as part of the Programming, Algorithms, and Data Structures course of the Copenhagen Business School MSc in Business Administration and Data Science. No specific license applies.
